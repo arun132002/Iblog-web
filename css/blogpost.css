@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap');
+
+*{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.blogspot1{
+    margin-top: 0px;
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.blogcontent{
+    margin-top: 15px;
+    width: 70vw;
+    height:100%;
+    margin: auto;
+}
+.blogcontent h1{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.blogcontent p{
+    margin-top: 4px;
+   
+}
+.morecontent{
+    display: flex;
+    flex-direction:row;
+}
+.articles{
+    flex-direction: column;
+    align-items: center;
+}
+.articles p ,h3{
+    text-align: center;
+}
+.articles h3{
+    margin-top: 20px;
+}
+.articles p {
+    margin-top: 20px;
+}
+.foot2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+#articlecontent a{
+    text-decoration: none;
+    color: black;
+}
+.authorinfo{
+    width:70vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.author
+{
+    display: flex;
+    flex-direction:column;
+    
+    
+    
+}
+.socials{
+    display:flex;
+    flex-direction: row;
+}
+.author span{
+    font-weight: bolder;
+    font-size: 23px;
+}
+.socials{
+    cursor: pointer;
+    margin-right: 35px;
+}
+.breakline{
+    margin-top: 20px;
+}

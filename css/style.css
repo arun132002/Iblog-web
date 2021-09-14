@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap');
+*{
+    font-family: 'Baloo Bhai 2', cursive;
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+#breakline{
+    width: 80vw;
+    margin: auto;
+}
+<div class="navigationbar">
+        <div id="leftdiv">
+            <span id="logo">
+               <img src="/images/logo.png" alt="" height="85px">
+            </span>
+            <ul id="homeelements">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/html/about.html">About</a></li>
+                <li><a href="/html/contact.html">Contact</a></li>
+
+            </ul>
+
+        </div>
+#forminput{
+    padding: 7px 0px;
+    margin: 4px 0px;
+    border-radius: 12px;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 15px;
+}
+#btn{
+    padding: 8px 13px;
+    margin: 1px 9px;
+    border-radius: 9px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out ;
+}
+#btn:hover{
+    background-color: brown;
+}
+#homeelements li{
+    border-radius: 10px;
+}
+/*introcontent styling*/
+.introcontent{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    overflow: hidden;
+    
+    padding: 0px 0px;
+    margin-top: 30px;
+    position: relative;
+}
+.introcontent::before{
+    content: "";
+    background: url("/images/11.svg") no-repeat center center/cover ;
+    position: absolute;
+    width: 100%;
+    
+    top: 0px;
+    left: 0px;
+    opacity: 0.2;
+    z-index: -1;
+    overflow: hidden;
+}
+.intro1{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    margin: 0px 0px;
+    padding: 0px 80px;
+}
+
+    #introimage {
+        height: 250px;
+        border-radius: 115px;
+        border: 3px solid black;
+    }
+
+.intro2{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+/*featured articles styling*/
+.featuredarticles{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 37px 0px;
+    margin-top: 5px;
+}
+.articles{
+    display: flex;
+    padding: 45px 0px;
+    margin: 0px 0px;
+   
+    
+    
+}
+#articleimage{
+    height: 150px;
+}
+#articlecontent{
+    align-self: center;
+    padding: 0px 50px;
+    display: flex;
+    flex-direction: column;
+}
+#articlecontent h3{
+    font-size: 24px;
+}
+#articlecontent h3 a :hover{
+    color: brown;
+    background-color: cadetblue;
+}
+/*footer styling*/
+#footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
